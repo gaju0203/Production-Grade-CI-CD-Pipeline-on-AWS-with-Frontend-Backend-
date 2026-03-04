@@ -12,7 +12,7 @@ sudo systemctl enable nginx
 # Define variables
 APP_TIER_ALB_URL="http://internal-web-tier-internallb-763063626.ap-south-1.elb.amazonaws.com"  # Replace with your alb endpoint
 NGINX_CONF="/etc/nginx/nginx.conf"
-SERVER_NAME=          # Replace with your actual domain name
+# SERVER_NAME=Replace with your actual domain name
 
 # Backup existing NGINX configuration
 sudo cp $NGINX_CONF ${NGINX_CONF}.bak
@@ -137,5 +137,6 @@ chmod +x ./install
 sudo ./install auto
 
 sudo systemctl start codedeploy-agent
+
 
 
