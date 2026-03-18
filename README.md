@@ -49,4 +49,6 @@ The architecture demonstrates:
 - Separation of frontend & backend pipelines
 - Secure cloud networking concepts
 
+## how i implement this project don't worry i have created file checkout this :)  (step-by-step
+
 
